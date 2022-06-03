@@ -1,15 +1,17 @@
 <template>
-    <nav>
-        <router-link to="/">
-            Home
-        </router-link>
-        |
-        <router-link to="/about">
-            About
-        </router-link>
-    </nav>
+    <el-config-provider size="large">
+        <nav>
+            <router-link to="/">
+                Home
+            </router-link>
+            |
+            <router-link to="/about">
+                About
+            </router-link>
+        </nav>
 
-    <router-view />
+        <router-view />
+    </el-config-provider>
 </template>
 
 <script setup lang="ts">

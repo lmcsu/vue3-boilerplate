@@ -8,7 +8,6 @@
         </div>
 
         <el-button
-            size="large"
             @click="store.clicks++"
         >
             Clicks {{ store.clicks }}
