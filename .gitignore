@@ -2,9 +2,6 @@
 node_modules
 /dist
 
-auto-imports.d.ts
-components.d.ts
-
 # local env files
 .env.local
 .env.*.local
