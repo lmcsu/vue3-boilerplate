@@ -21,7 +21,7 @@ module.exports = {
             'always-multiline',
         ],
         'indent': ['error', 4, { SwitchCase: 1 }],
-        'max-len': ['error', 120],
+        'max-len': ['error', 132],
         'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
         'no-unused-vars': [
