@@ -13,7 +13,7 @@
             Clicks {{ store.clicks }}
         </el-button>
 
-        <HelloWorld msg="Welcome to Your Vue.js + TypeScript + Element Plus + Pinia + Eslint App" />
+        <HelloWorld msg="Welcome to Your Vue.js App" />
     </div>
 </template>
 
