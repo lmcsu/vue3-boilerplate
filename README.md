@@ -6,6 +6,8 @@
 - Element Plus
 - Pinia
 - Eslint
+- vue-router
+- normalize.css
 - SCSS
 
 ## Project setup
