@@ -1,4 +1,12 @@
-# Vue.js + TypeScript + Element Plus + Pinia + Eslint
+# Vue-3 boilerplate
+
+## Base
+- Vite
+- TypeScript
+- Element Plus
+- Pinia
+- Eslint
+- SCSS
 
 ## Project setup
 ```
