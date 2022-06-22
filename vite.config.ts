@@ -37,6 +37,11 @@ export default defineConfig({
             input: [
                 resolve(__dirname, 'src/index.html'),
             ],
+            output: {
+                manualChunks(id) {
+                    return id.match(/\/node_modules\/([^/]+)/)?.[1];
+                },
+            },
         },
     },
 });
